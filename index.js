@@ -23,9 +23,6 @@ const run = async () => {
         client.connect();
 
 
-
-
-
         const projects = client.db("portfolio").collection("projects");
 
 
