@@ -26,6 +26,10 @@ const run = async () => {
         const projects = client.db("portfolio").collection("projects");
 
 
+        // ok everything 
+        // https://portfolio-server-gamma-lake.vercel.app
+
+
 
         // Send a ping to confirm a successful connection
         client.db("admin").command({ ping: 1 });
